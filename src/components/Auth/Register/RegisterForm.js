@@ -1,6 +1,6 @@
 import React from 'react';
 import './RegisterForm.css';
-import logo from '../../../assets/bg-login-register.jpg'; // Asegúrate de tener esta imagen en la carpeta correcta
+import logo from '../../../assets/bg-login-register.webp'; // Asegúrate de tener esta imagen en la carpeta correcta
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { validationSchema } from '../AuthValidation';

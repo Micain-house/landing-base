@@ -6,3 +6,11 @@
     align-content: center;
     align-items: center;
 }
+
+@media (max-width: 1000px) {
+    .header{
+       height: 200px;
+       margin: 0;
+    }
+    
+    }

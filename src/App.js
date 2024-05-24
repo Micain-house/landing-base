@@ -10,6 +10,7 @@ import Services from './pages/Services/Services';
 import Pricing from './pages/Pricing/Pricing';
 import RegisterForm from './components/Auth/Register/RegisterForm';
 import LoginForm from './components/Auth/Login/LoginForm';
+import Blog from './pages/Blog/Blog.js';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
                   <Route path="/contact" element={<Contact/>} />
                   {/* <Route path="/services" element={<Services/>} /> */}
                   <Route path="/pricing" element={<Pricing/>} />
+                  <Route path="/blog" element={<Blog/>} />
                   <Route path="/register" element={<RegisterForm/>} />
                   <Route path="/login" element={<LoginForm/>} />
               </Routes>

@@ -19,12 +19,12 @@ const SearchBar = () => {
     <div className="search-container">
       <input
         type="text"
-        placeholder="Search..."
+        placeholder="Buscar..."
         value={query}
         onChange={handleInputChange}
         className="search-input"
       />
-      <button onClick={handleSearch} className="search-button">Search</button>
+      <button onClick={handleSearch} className="search-button">Buscar</button>
     </div>
     </div>
 
