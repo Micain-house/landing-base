@@ -8,6 +8,7 @@
 }
 .button-group-plans{
   display: flex;
+  justify-content: center;
   gap: 16px;
   width: 60%;}
 

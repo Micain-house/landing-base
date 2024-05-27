@@ -1,4 +1,116 @@
 .home{
     text-align: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.home-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    line-height: 24px;
+    text-align: center;
+    width: 100%;
+    max-width:1600px;
+}
+.home-container h1 {
+    font-size:72px;
+    line-height:72px;
+    text-align:center;
+}
+.home-container p{
+font-size:18px;
+line-height:28px;
+padding:8px 0px 0px;
+text-align:center;
+margin-right: 2rem;
+margin-left: 2rem;
+}
+.buttons-home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    height: 100px;
+}
+.btn-home-contact {
+    width: 20%;
+    background-color:transparent;
+    height: 40px;
+    border:1px solid #186862;;
+    color: #186862;
+}
+.btn-home-contact:hover {
+    background-color:#186862;
+    color:white;
+}
+.btn-home-products{
+    width: 20%;
+    background-color: #186862;;
+    height: 40px;
+    border: #186862;
+}
+.btn-home-products:hover{
+    background-color: transparent;
+    border: 1px solid #186862;
+    color: #186862;
+}
+.card-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+    margin: 2rem;
+}
+.card-home-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+.card-home-text p{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.card-home img{
+    border-radius: 16px;
+    width: 50%;
+}
+section{
+    width: 100%;
+    margin-top: 4rem;
+}
+.preguntas-frecuentes{
+    height: 500px;
+    margin: 2rem;
+}
+.accordion{
+    margin-top: 2rem;
+    border:  #186862;;
+}
+.accordion-button:not(.collapsed) {
+
+
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .buttons-home{
+       flex-direction: column;
+       align-items: center;
+       width: 80%;
+    }
+
+    button.btn.btn-primary {
+        width: 100%;
+    }
+    .card-home {
+flex-direction: column;
+  }
+  .card-home img{
+    width: 100%;
+  }
 }
