@@ -21,6 +21,7 @@
     text-align:center;
 }
 .home-container p{
+width: 50%;
 font-size:18px;
 line-height:28px;
 padding:8px 0px 0px;
@@ -28,23 +29,23 @@ text-align:center;
 margin-right: 2rem;
 margin-left: 2rem;
 }
-.buttons-home{
-    width: 100%;
+.form-home{
+    max-width: 1060px;
+    width: 80%;
     display: flex;
-    justify-content: center;
     gap: 16px;
-    height: 100px;
 }
-.btn-home-contact {
-    width: 20%;
-    background-color:transparent;
-    height: 40px;
-    border:1px solid #186862;;
-    color: #186862;
+.wailist-input{
+    width: 100%;
+    border-radius: 32px;
+    border: 1px solid black;
+    padding: 12px 24px;
 }
-.btn-home-contact:hover {
-    background-color:#186862;
-    color:white;
+.form-home button{
+    width: 140px;
+    border-radius: 32px;
+    border: 1px solid black;
+    background: none;
 }
 .btn-home-products{
     width: 20%;
@@ -113,4 +114,15 @@ flex-direction: column;
   .card-home img{
     width: 100%;
   }
+.home-container p{
+    width: 100%;
+   padding: 2rem;
+    }
+.form-home{
+    flex-direction: column;
+}
+.form-home button {
+    width: 100%;
+    padding: 10px 24px;
+}
 }

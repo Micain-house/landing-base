@@ -14,10 +14,10 @@ const Home = () => {
      <h2>LOREM IMPSUM</h2>
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-       <div className='buttons-home'>
-       <Button variant="primary" className="btn-home-contact">CONTACT</Button>
-       <Button variant="primary" className="btn-home-products">PRODUCTS</Button>
-       </div>
+       <form className='form-home'>
+       <input type="email" placeholder="Email address" name="email" id="email" className='wailist-input'/> 
+        <button value="subtmit">Join wailist</button>
+       </form>
        <section>
         <div className='card-home'>
          <img src={cardHome} alt='cardHome'/>
