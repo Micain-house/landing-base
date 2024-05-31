@@ -10,7 +10,7 @@ const Footer = () => {
                     {/* Aquí puedes colocar el logo de tu aplicación */}
                     <img src={logo} alt="Logo" />
                 </div>
-                <nav className='nav-footer'>
+                {/* <nav className='nav-footer'>
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="#/about">About</a></li>
@@ -18,7 +18,7 @@ const Footer = () => {
                         <li><a href="/pricing">Pricing</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
-                </nav>
+                </nav> */}
                 <div className='socialMedia'>
                     {/* Enlaces a redes sociales */}
                     <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>

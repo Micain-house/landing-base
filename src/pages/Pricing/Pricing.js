@@ -78,11 +78,11 @@ const Pricing = () => {
       <div className='pricing-container'>
         <h1>MEMBER SHIP PLANS</h1>
         <div className='button-group-plans'>
-          <Button className={`button-card ${selectedPlan === 'FREE' ? 'active' : ''}`}
+          <Button className={`button-secondary-global ${selectedPlan === 'FREE' ? 'active' : ''}`}
            onClick={() => setSelectedPlan('FREE')}>Free Plan</Button>
-          <Button  className={`button-card ${selectedPlan === 'MONTHLY' ? 'active' : ''}`} 
+          <Button  className={`button-secondary-global ${selectedPlan === 'MONTHLY' ? 'active' : ''}`} 
            onClick={() => setSelectedPlan('MONTHLY')}>Monthly Plan</Button>
-          <Button className={`button-card ${selectedPlan === 'ANNUAL' ? 'active' : ''}`}onClick={() => setSelectedPlan('ANNUAL')}>Annual Plan</Button>
+          <Button className={`button-secondary-global ${selectedPlan === 'ANNUAL' ? 'active' : ''}`}onClick={() => setSelectedPlan('ANNUAL')}>Annual Plan</Button>
         </div>
         <CardGroup>
           {cards[selectedPlan]}
